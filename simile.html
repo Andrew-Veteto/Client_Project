@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simile</title>
+    <link rel="stylesheet/less" type="text/css" href="./less/custom_styles.less" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <a class="hamburger" href="#navbar">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav id="navbar">
+            <ul>
+                <i class="fa-solid fa-house"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="simile.html">Figures of Speech</a></li>
+                <li><a href="neelyboard.html">Neely-Board</a></li>
+                <li><a href="week.html">Week</a></li>
+            </ul>
+            <a class="close" href="#">
+                <i class="fa fa-close"></i>
+            </a>
+        </nav>
+    </div>
+    <div id="wrapper">
+        <div id="mainContent">
+            <div id="secondaryContent">
+                <div id="DefinitionPoems">
+                    <div id="Definition">
+                        <h1>Simile</h1>
+                        <p>When two things
+                            are compared
+                            using like or as.</p>
+                    </div>
+                    <div id="Poem">
+                        <div id="poemButtonArea">
+                            <button class="poemButton" id="p1" onclick="showP1()">Poem 1</button>
+                            <button class="poemButton" id="p2" onclick="showP2()">Poem 2</button>
+                            <button class="poemButton" id="p3" onclick="showP3()">Poem 3</button>
+                        </div>
+                        <div id="poemBox">
+                            <h1>Example</h1>
+                            <div id="pp1">
+                                <p>Twinkle, twinkle, little star,
+                                    How I wonder what you are!
+                                    Up above the world so high,
+                                    Like a diamond in the sky.
+                                    Twinkle, twinkle, little star,
+                                    How I wonder what you are!</p>
+                            </div>
+                            <div id="pp2" style="display: none;">
+                                <p>No Difference
+
+                                    Small as a peanut,
+                                    Big as a giant,
+                                    We're all the same size
+                                    When we turn off the light.
+
+                                    Rich as a sultan,
+                                    Poor as a mite,
+                                    We're all worth the same
+                                    When we turn off the light.
+
+                                    Red, black or orange,
+                                    Yellow or white,
+                                    We all look the same
+                                    When we turn off the light.
+
+                                    So maybe the way,
+                                    To make everything right
+                                    Is for god to just reach out
+                                    And turn off the light!</p>
+                            </div>
+                            <div id="pp3" style="display: none;">
+                                <p>A piece of popcorn escaped from the pan and flew across the kitchen like Superman.
+
+                                    It ping-ponged back and forth between the oven and the freezer. Then it shot up to
+                                    the
+                                    ceiling like a daredevil trapeezer.
+
+                                    I tried and tried to catch it, but it never missed a trick. So finally I gave up and
+                                    ate
+                                    a
+                                    liquorice stick.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video">
+                    <div id="buttonDiv">
+                        <button id="button1" class="vidButton" onclick="hideVideo2()">Video 1</button>
+                        <button id="button2" class="vidButton" onclick="hideVideo1()">Video 2</button>
+                    </div>
+                    <div id="videoBoxy">
+                        <div id="videoBox1">
+                            <iframe width="920" height="530" src="https://www.youtube.com/embed/pm6zt24w0qU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div id="videoBox2" style="display: none;">
+                            <iframe width="920" height="530" src="https://www.youtube.com/embed/Syv4x-09luY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottomButts">
+        <button class="bottomButton"><a href="index.html">Home</a></button>
+        <button class="bottomButton"><a href="metaphor.html">Next</a></button>
+    </div>
+
+</body>
+
+</html>

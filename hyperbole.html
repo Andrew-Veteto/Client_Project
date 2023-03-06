@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperbole</title>
+    <link rel="stylesheet/less" type="text/css" href="./less/custom_styles.less" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <a class="hamburger" href="#navbar">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav id="navbar">
+            <ul>
+                <i class="fa-solid fa-house"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="simile.html">Figures of Speech</a></li>
+                <li><a href="neelyboard.html">Neely-Board</a></li>
+                <li><a href="week.html">Week</a></li>
+            </ul>
+            <a class="close" href="#">
+                <i class="fa fa-close"></i>
+            </a>
+        </nav>
+    </div>
+    <div id="wrapper">
+        <div id="mainContent">
+            <div id="secondaryContent">
+                <div id="DefinitionPoems">
+                    <div id="Definition">
+                        <h1>Hyperbole</h1>
+                        <p>Exaggerations that
+                            are so dramatic that
+                            no one would believe
+                            it is true.</p>
+                    </div>
+                    <div id="Poem">
+                        <div id="poemButtonArea">
+                            <button class="poemButton" id="p1" onclick="showP1()">Poem 1</button>
+                            <button class="poemButton" id="p2" onclick="showP2()">Poem 2</button>
+                            <button class="poemButton" id="p3" onclick="showP3()">Poem 3</button>
+                        </div>
+                        <div id="poemBox">
+                            <h1>Example</h1>
+                            <div id="pp1">
+                                <p>Welcome to our restaurant Where every thing's gigantic A hundred waiters hold one
+                                    dish Our
+                                    kitchen can get frantic Our soup is deeper than the sea Our noodles stretch a mile
+                                    The bread
+                                    is longer than a train It's sure to make you smile We pile our peas up mountain high
+                                    One
+                                    cookie hides the moon We pour our iced tea into boats We hope you'll visit soon</p>
+                            </div>
+                            <div id="pp2" style="display: none;">
+                                <p>All by myself
+                                    Alone in a room.
+                                    My mom put me in timeout.
+                                    So lonely, it's been 10,000 years,
+                                    So lonely no one remembers me at all,
+                                    So lonely my whole world is just this
+                                    room.
+                                    Oh wait!
+                                    My 5 minutes are up.
+                                    Goodbye, I'm going out to play!</p>
+                            </div>
+                            <div id="pp3" style="display: none;">
+                                <p>In a house the size of a postage stamp lived a man as big as a barge. His mouth could
+                                    drink
+                                    the entire river You could say it was rather large For dinner he would eat a
+                                    trillion beans
+                                    And a silo full of grain, Washed it down with a tanker of milk As if he were a
+                                    drain.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="video">
+                    <div id="buttonDiv">
+                        <button id="button1" class="vidButton" onclick="hideVideo2()">Video 1</button>
+                        <button id="button2" class="vidButton" onclick="hideVideo1()">Video 2</button>
+                    </div>
+                    <div id="videoBoxy">
+                        <div id="videoBox1">
+                            <iframe width="920" height="530" src="https://www.youtube.com/embed/kuzWLDWm6Zs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div id="videoBox2" style="display: none;">
+                            <iframe width="920" height="530" src="https://www.youtube.com/embed/GUBNBCUTpvs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottomButts">
+        <button class="bottomButton"><a href="alliteration.html">Previous</a></button>
+        <button class="bottomButton"><a href="idiom.html">Next</a></button>
+    </div>
+
+</body>
+
+</html>
